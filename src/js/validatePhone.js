@@ -1,4 +1,4 @@
-function validatePhone(number) {
+export default function validatePhone(number) {
   const plus = '+';
   let tmpStr = number.replace(/(\+)|[(]|[)]|[-]/g, '');
   tmpStr = tmpStr.replace(/[7|8]\s/, '7');
